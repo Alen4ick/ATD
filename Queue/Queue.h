@@ -8,5 +8,5 @@ class Queue {
 
     T top(const Queue& queue);
     T pop(Queue& queue);
-    void push(Queue& queue);
+    void push(Queue& queue, T value);
 };

@@ -15,7 +15,7 @@ class Stack{
     bool Is_Full(const Stack& stack);
     T Top(const Stack& stack);
     T pop(Stack& stack); // Мы удалим верхний элемент и вернем его
-    void push(Stack& stack);
+    void push(Stack& stack, T value);
     size_t len(const Stack& stack);
 };
 
