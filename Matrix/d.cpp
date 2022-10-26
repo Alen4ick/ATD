@@ -5,7 +5,7 @@ class Matrix{
     private:
     size_t i{},j{};
     public:
-    Matrix() =default;
+    Matrix() = default;
     Matrix(size_t i, size_t j);
     Matrix(const Matrix& matrix);
     ~Matrix() = default;
